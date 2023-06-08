@@ -3,9 +3,11 @@
 
 <template>
     <div>
-        <h3>01001000 01001011 01010011 01001000</h3>
-        <h2>Jerome A.</h2>
-        <p>Computer Engineer / Junior Software Developer</p>
+        <div class="box">
+            <h3>01001000 01001011 01010011 01001000</h3>
+        </div>
+        <h2 class="left">Jerome A.</h2>
+        <p class="left">Computer Engineer / Junior Software Developer</p>
         <img src="../../public/image/king.jpg" class="picture" alt="Profile Picture" />
     </div>
     <div>
@@ -33,14 +35,19 @@
 </template>
 
 <style scoped>
+.box {
+    background-color: #000;
+    border-radius: 1ch;
+    padding: 0.01cm;
+}
 .section-head {
-    color: #888
+    color: #888;
+    text-decoration-line: underline;
+    text-decoration-thickness: 200%;
 }
 .picture {
     height: 6em;
     width: 6em;
-}
-.picture {
     border-radius: 1.5ch;
 }
 .logo {
