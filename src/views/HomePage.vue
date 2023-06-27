@@ -1,8 +1,5 @@
-<script setup lang="ts">
-</script>
-
 <template>
-    <div>
+    <div class="section">
         <div class="box">
             <h3>01001000 01001011 01010011 01001000</h3>
         </div>
@@ -10,7 +7,7 @@
         <p class="left">Computer Engineer / Junior Software Developer</p>
         <img src="../../image/king.jpg" class="picture" alt="Profile Picture" />
     </div>
-    <div>
+    <div class="section">
         <h3 class="section-head">Work</h3>
             <p>Haven't worked yet, had university projects though.</p>
         <h3 class="section-head">Bio</h3>
@@ -40,6 +37,12 @@
     border-radius: 1ch;
     padding: 0.01cm;
 }
+.section {
+    background-color: #00000040;
+    padding:2ch;
+    margin-bottom: 1ch;
+    border-radius: 2ch;
+}
 .section-head {
     color: #888;
     text-decoration-line: underline;
@@ -57,3 +60,6 @@
     margin-inline: 1em;
 }
 </style>
+
+<script setup lang="ts">
+</script>
