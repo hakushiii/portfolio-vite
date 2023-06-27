@@ -5,7 +5,7 @@
         </div>
         <h2 class="left">Jerome A.</h2>
         <p class="left">Computer Engineer / Junior Software Developer</p>
-        <img src="../../image/king.jpg" class="picture" alt="Profile Picture" />
+        <img src="/public/image/king.jpg" class="picture" alt="Profile Picture" />
     </div>
     <div class="section">
         <h3 class="section-head">Work</h3>
@@ -17,13 +17,13 @@
             <p>Started University taking Bachelor of Science in Computer Engineering</p>
         <h3 class="section-head">SNS</h3>
             <a href="https://www.linkedin.com/in/jerome-christian-alapad-3547631b7/">
-                <img class="logo" src="../../logo/linkedin-logo.svg" alt="LinkedIN" />
+                <img class="logo" src="/public/logo/linkedin-logo.svg" alt="LinkedIN" />
             </a>
             <a href="https://github.com/hakushiii">
-                <img class="logo" src="../../logo/github-logo.svg" alt="Github" />
+                <img class="logo" src="/public/logo/github-logo.svg" alt="Github" />
             </a>
             <a href="https://twitter.com/hakushiii_">
-                <img class="logo" src="../../logo/twitter-logo.svg" alt="Twitter" />
+                <img class="logo" src="/public/logo/twitter-logo.svg" alt="Twitter" />
             </a>
             
     </div>
